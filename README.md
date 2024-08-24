@@ -47,5 +47,16 @@ echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> $HOME/.bash_profile
 source .bash_profile
 go version
 ```
+### Nodejs & npm
+```console
+sudo apt purge --autoremove nodejs npm
+```
+```console
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node -v
+npm -v
+```
+
 
 ............................

@@ -57,6 +57,19 @@ sudo apt-get install -y nodejs
 node -v
 npm -v
 ```
+### Install Rust and Cargo
+```console
+curl https://sh.rustup.rs -sSf | sh
+```
+```console
+source "$HOME/.cargo/env"
+```
+```console
+rustc --version
+cargo --version
+```
+
+
 
 
 ............................

@@ -68,6 +68,16 @@ source "$HOME/.cargo/env"
 rustc --version
 cargo --version
 ```
+### Install Foundry
+```console
+curl -L https://foundry.paradigm.xyz | bash
+```
+```console
+source ~/.bashrc
+```
+```console
+foundryup
+```
 
 
 
